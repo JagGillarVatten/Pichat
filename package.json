@@ -1,0 +1,28 @@
+{
+  "name": "pichat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodemon index.js",
+    "build": "PiChat is up and running!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Pi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
+  },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "ngrok": "^4.3.3",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.6.1"
+  }
+}
