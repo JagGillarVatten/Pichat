@@ -1,17 +1,28 @@
 {
   "name": "pichat",
   "version": "1.0.0",
-  "description": "My Chatting Service on Codesandbox",
-  "main": "index.js",
+  "description": "",
+  "main": "index.html",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js",
+    "build": "PiChat is up and running!"
   },
-  "author": "Name",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": [],
+  "author": "Pi",
   "license": "MIT",
-  "engines": {
-    "node": "16.17.0.1"
+  "bugs": {
+    "url": "https://github.com/codesandbox-app/static-template/issues"
   },
+  "homepage": "https://github.com/codesandbox-app/static-template#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "ngrok": "^4.3.3",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.6.1"
   }
 }
